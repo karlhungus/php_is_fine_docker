@@ -11,7 +11,7 @@ This is probably all kinds of wrong, but I need
 ```
 git clone git@github.com:karlhungus/askeet_php_is_fine.git
 sudo docker build -f ./Dockerfile -t php_is_fine:1 ./
-sudo docker run -it --user sfproject -v $(pwd)/askeet_php_is_fine:/home/sfproject/ php_is_fine:1
+sudo docker run --rm -it --user sfproject -v $(pwd)/askeet_php_is_fine/:/home/sfproject/ php_is_fine:1
 
 # inside the container
 
