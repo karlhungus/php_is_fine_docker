@@ -1,6 +1,6 @@
 #### PHP IS FINE
 
-![](./fine.png)
+![](./files/fine.png)
 
 This is probably all kinds of wrong, but I need
 
@@ -20,4 +20,5 @@ sudo service apache2 start
 # now hit docker-container-ip:8080 in your browser
 ```
 
+Tutorial i'm following [askeet.pdf](./files/askeet-1.0-en.pdf)
 
